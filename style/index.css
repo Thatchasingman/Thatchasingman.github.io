@@ -5,13 +5,23 @@
 }
 
 body {
+
 }
 
 .gutter {
     width: 600px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
-
+.gutter > #name {
+    display: block;
+    margin: 0 auto;
+}
+.gutter .qrcode {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
 /*动态字*/
 /**/
 .ityped-cursor {
