@@ -4,7 +4,39 @@
     outline: none;
 }
 
+body {
+}
+
 .gutter {
-    width: 500px;
-    margin: 200px auto;
+    width: 600px;
+    margin: 100px auto;
+}
+
+/*动态字*/
+/**/
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
 }
