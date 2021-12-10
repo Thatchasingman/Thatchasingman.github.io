@@ -11,7 +11,30 @@
     <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    <div id="app">
+    <section class="showcase">
+      <div class="video-container">
+        <!-- <video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video> -->
+        <div class="cover">
+                <canvas id="scene"></canvas>
+        </div>
+      </div>
+      <div class="content">
+        <h1>こころを奪ってゆくんだぜ</h1>
+        <h3>君がほしいのだ</h3>
+        <a href="#about" class="btn">メッセージ</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1>星明窝</h1>
+      <p>
+        欢迎关注我的小破窝！这里有一些我想要分享的漫画、电子书、网站和软件，我个人的一些看法与观点。看官也可以给我发消息给你找资源，但不能保证可以找到。
+      </p>
+
+      <h2>...</h2>
+
+      <div class="feed">
+           <div id="app">
         <div class="gutter">
             <img id="name" src="favicon.png" alt="星明窝"/>
         <!--itpyed-->
@@ -24,6 +47,8 @@
             <img src="qrcode.jpg" alt="公众号二维码" class="qrcode"/>
        </div>
     </div>
+      </div>
+    </section>
         <!-- 加载 Vue 组件-->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <!-- 引入组件库 -->
