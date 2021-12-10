@@ -9,7 +9,9 @@ const _ = new Vue({
     const tye = document.querySelector('#tye');
     ityped.init(tye, {showCursor: true, strings:['欢迎关注我的公众号-星明窝-->>里面啥都有，关注了才知道！'] });
     console.log('itpyed: https://ityped.surge.sh/');
-    const canvas = document.querySelector('#scene');
+})();
+
+ const canvas = document.querySelector('#scene');
         canvas.width = canvas.clientWidth;
         canvas.height = canvas.clientHeight;
         // Store the 2D context
@@ -137,4 +139,3 @@ const _ = new Vue({
         
         // Render the scene
         window.requestAnimationFrame(render);
-})();
