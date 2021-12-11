@@ -6,11 +6,16 @@ const _ = new Vue({
 });
 
 (()=>{
+    // 动态打字效果
     const tye = document.querySelector('#tye');
     ityped.init(tye, {showCursor: true, strings:['欢迎关注我的公众号-星明窝-->>里面啥都有，关注了才知道！'] });
     console.log('itpyed: https://ityped.surge.sh/');
+    // 点击二维码开关樱花飘落效果
+    const obtn = document.querySeletor('.qrcode');
+    obtn.addEventListener('click', stopp());
 })();
 
+// 旋转背景
  const canvas = document.querySelector('#scene');
         canvas.width = canvas.clientWidth;
         canvas.height = canvas.clientHeight;
