@@ -11,7 +11,7 @@ const _ = new Vue({
     ityped.init(tye, {showCursor: true, strings:['欢迎关注我的公众号-星明窝-->>里面啥都有，关注了才知道！'] });
     console.log('itpyed: https://ityped.surge.sh/');
     // 点击二维码开关樱花飘落效果
-    const obtn = document.querySeletor('.qrcode');
+    const obtn = document.querySelector('.qrcode');
     obtn.addEventListener('click', stopp());
 })();
 
