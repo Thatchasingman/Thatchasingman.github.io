@@ -126,7 +126,7 @@ h1 {
 /*动态字*/
 /**/
 .ityped-cursor {
-    font-size: 2.2rem;
+    font-size: 1.33vw;
     opacity: 1;
     -webkit-animation: blink 0.3s infinite;
     -moz-animation: blink 0.3s infinite;
