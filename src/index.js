@@ -12,7 +12,7 @@ const _ = new Vue({
     console.log('itpyed: https://ityped.surge.sh/');
     // 点击二维码开关樱花飘落效果
     const obtn = document.querySelector('.qrcode');
-    obtn.addEventListener('click', stopp());
+    obtn.addEventListener('click', ()=>{stopp()});
 })();
 
 // 旋转背景
