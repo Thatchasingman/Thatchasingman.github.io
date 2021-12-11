@@ -106,18 +106,17 @@ h1 {
 }
 
 .gutter {
-    width: 600px;
-    margin: 0 auto;
-}
-.gutter > #name {
-    display: block;
-    margin: 0 auto;
+    width: 60vw;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+  
 }
 .gutter .qrcode {
     display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
 }
 /*动态字*/
 /**/
