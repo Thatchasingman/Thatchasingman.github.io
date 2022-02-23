@@ -1,15 +1,5 @@
-const _ = new Vue({
-    el: '#app',
-    data:()=>{
-        return {}
-    }
-});
 
 (()=>{
-    // 动态打字效果
-    const tye = document.querySelector('#tye');
-    ityped.init(tye, {showCursor: true, strings:['群々の人間は自分が信じたいことを信じるだけ、真実なんっさどうでもいい'] });
-    console.log('itpyed: https://ityped.surge.sh/');
     // 点击二维码开关樱花飘落效果
     const obtn = document.querySelector('.qrcode');
     obtn.addEventListener('click', ()=>{stopp()});
