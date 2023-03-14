@@ -10,20 +10,130 @@
     <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    <section class="showcase">
-      <div class="video-container">
-        <div class="cover">
-                <canvas id="scene"></canvas>
-        </div>
-      </div>
-      <div class="content">
-        <h1>星明窝</h1>
-        <h3>垃圾回收</h3>
-        <a href="#about" class="btn">更多</a>
-      </div>
-    </section>
+    <!--首栏部分-->
+<header class="headerArea" id="top">
+    <!--logo-->
+    <p class="logo">
+        <a href="http://weixin.qq.com/r/EihUTJjEg8X8rdwv930A">
+            <img src=""  alt="星明窝">
+        </a>
+    </p>
+    <!--搜索区域-->
+    <div class="searchForm">
+        <form action="">
+            <div class="searchBox">
+                <div class="selectTxt">
+                    <input type="text" id="button_bar_search_text" name="" placeholder="文段检索">
+                </div>
+                <input type="submit" id="button_bar_search" value="">
+            </div>
+            <div class="detailList"></div>
+        </form>
+    </div>
+    <!--导航栏区域-->
+    <nav class="headerNav">
+        <ul class="gNav">
+            <li><a href="">主页</a></li>
+            <li><a href="">资源</a></li>
+            <li><a href="">工具</a></li>
+            <li><a href="">文章</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <section id="about">
+<!--幻灯片-->
+<div id="carousel" class="carousel">
+    <h2>推荐阅读</h2>
+    <div class="column col2col carouselContent">
+        <div class="col">
+            <div class="carouselItem">
+                <a href="">
+                  <div class="thumbnail">
+                    <img src="/fig/car.png" alt="">
+                </div>  
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <ul class="carouselList">
+                <li>
+                    <a href="">
+                        <div class="thumbnail active"><img src="/fig/car.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="thumbnail"><img src="/fig/fs.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="thumbnail"><img src="/fig/tm.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="thumbnail"><img src="/fig/nk.jpg" alt=""></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--内容部分-->
+<div class="container" id="con">
+    <div class="contentSection">
+        <div class="sectionInner">
+            <h2>最近文章</h2>
+            <div class="column col2col">
+                <div class="col">
+                    <div class="Item">
+                        <a href="">
+                            <div class="thumbnail">
+                                <img src="/fig/tm.png" alt="">
+                            </div>
+                            <div class="textWrap">
+                                <span class="acontent">
+                                     <span class="acontentInner">
+                                    ゲーム実況させていただきました。BAD ENDがなかなかに怖い展開でびっくりしましたが、
+                                    TRUE ENDでは、律くんの想いに涙しました。
+                                    Ｕちゃんはビジュアルもさることながら毒... 
+                                      </span>
+                               </span>
+                                <div class="autherInfo"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="Item">
+                        <a href="">
+                            <div class="thumbnail">
+                                <img src="/fig/fs.png" alt="">
+                            </div>
+                            <div class="textWrap">
+                                <span class="acontent">
+                                    <span class="acontentInner">
+                                    最後まで含めてすべてプレイさせて頂きました。まずはアウラ、かわいいよ（変態ボイス）。
+
+@ネタバレ開始はじめは周回だと気がつかず、元の画面に戻った瞬間（暗いEDで下がり切ったテンショ... 
+                                    </span>
+                               </span>
+                                <div class="autherInfo"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--页尾部分-->
+<footer class="footerArea" id="foo">
+    <div class="whiteCon">
+         <section id="about">
       <div class="feed">
            <div id="app">
             <img src="qrcode.jpg" alt="公众号二维码" title="点击开闭樱花效果" class="qrcode"/>
@@ -31,6 +141,20 @@
     </div>
       </div>
     </section>
+    </div>
+    <div class="contact"></div>
+    <div class="footerBottom">
+        <div class="bottomInner">
+            <small class="copyright"> 2023 © xingmingwo All Rights Reserved.</small>
+            <div class="about">
+                <a href="">关于本站</a>
+                <a href="">使用规范</a>
+            </div>
+        </div>
+    </div>
+<!--返回顶部-->
+    <p class="toTop"></p>
+</footer>
     <!-- 引入组件库 -->
     <script src="src/index.js"></script>
     <script src="src/config.sakura.js"></script>
