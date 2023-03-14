@@ -328,24 +328,3 @@ div.column.col2col .col .Item > a .textWrap{
     color: #fff;
     padding-right: 10px;
 }
-#about {
-  padding: 40px;
-  text-align: center;
-}
-
-#about p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: auto;
-}
-
-#about h2 {
-  margin: 30px 0;
-  color: var(--primary-color);
-}
-
-.qrcode {
-    flex:0.4;
-    width: 10vw;
-    height: 10vw;
-}
