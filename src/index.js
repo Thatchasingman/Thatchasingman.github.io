@@ -1,8 +1,6 @@
 
 (()=>{
-    // 点击二维码开关樱花飘落效果
-    const obtn = document.querySelector('.qrcode');
-    obtn.addEventListener('click', ()=>{stopp()});
+   
     // 轮播图效果
         const carouosel = document.querySelector('.carouselContent');
     const cols = carouosel.querySelectorAll('.col');
